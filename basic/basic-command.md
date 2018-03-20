@@ -28,4 +28,6 @@ git push origin master --tags: 推送时默认不会带有tag, 需添加参数 -
 
 git fetch origin hello:hello : git拉取远程仓库的特定分支到本地 remote-branch-name:local-branch-name, 此种方式本地 hello 分支不会自动和远程分支 hello 建立关系
 
+git push origin hello:hello : 推送本地hello分支的更新到远程的hello分支，完整命令形式git push remote-name local-brabch:remote-branch
+
 
