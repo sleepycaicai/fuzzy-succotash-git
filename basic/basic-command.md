@@ -20,3 +20,8 @@ git merge test: 合并 test 分支到 master 分支
 
 git branch -d test: 删除 test 分支
 
+git push origin :test : 删除远程仓库中的 test 分支。 这是因为完整的命令形式是 git push remote-name local-brabch:remote-branch, 这里local-branch 为空，就意味着推送一个空到remote-branch, 也就是删除了 remote-branch
+
+git tag "V1.0" 为当前提交打标签
+
+git push origin master --tags: 推送时默认不会带有tag, 需添加参数 --tags
