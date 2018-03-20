@@ -12,3 +12,4 @@ git push origin master: 将当前的 master 分支推送到远程仓库
 
 git checkout -b test： 创建一个名为 test 的新分支，并且切换到新分支下
 
+git push origin test: 推送 test 分支到远程仓库，会在远程仓库创建一个名为 test 的分支
