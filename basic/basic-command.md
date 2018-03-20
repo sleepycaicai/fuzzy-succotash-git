@@ -8,5 +8,7 @@ git commit -m "message": 提交项目的更改
 
 git clone remote-path: 远程克隆一个仓库到本地
 
-git push origin maste: 将当前的 master 分支推送到远程仓库
+git push origin master: 将当前的 master 分支推送到远程仓库
+
+git checkout -b test： 创建一个名为 test 的新分支，并且切换到新分支下
 
