@@ -25,3 +25,7 @@ git push origin :test : 删除远程仓库中的 test 分支。 这是因为完�
 git tag "V1.0" 为当前提交打标签
 
 git push origin master --tags: 推送时默认不会带有tag, 需添加参数 --tags
+
+git fetch origin hello:hello : git拉取远程仓库的特定分支到本地 remote-branch-name:local-branch-name, 此种方式本地 hello 分支不会自动和远程分支 hello 建立关系
+
+
