@@ -30,4 +30,6 @@ git fetch origin hello:hello : git拉取远程仓库的特定分支到本地 rem
 
 git push origin hello:hello : 推送本地hello分支的更新到远程的hello分支，完整命令形式git push remote-name local-brabch:remote-branch
 
+git checkout -b test origin/hello: 拉取远程特定分支到本地并切换到新建的本地分支，本地分支会追踪远程对应的分支
+
 
